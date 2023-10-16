@@ -1,34 +1,30 @@
-#include <stdio.h>
-#include <math.h>
-float input() {
+#include<stdio.h>
+#include<math.h>
+float input_n(){
     float n;
-    printf("Enter a number: ");
-    scanf("%f", &n);
+    printf("Enter a number:\n");
+    scanf("%f",&n);
     return n;
 }
-float square_root(float n) {
-    if (n < 0) {
-        printf("Cannot find the square root of a negative number.\n");
-        return -1.0;
-    }
+float find_sqrt(float n, float epsilon){
     float x = n;
-    float y = 1.0;
-    float epsilon = 0.00001;
-    while (fabs(x - y) > epsilon) {
-        x = (x + y) / 2.0;
-        y = n / x;
+    epsilon=0.0001;
+    float x_next;
+    while(1){
+        x_next=0.5*(x + n/ x); 
+        if(fabs(x-x_next)<epsilon)
+            break;
+        x = x_next;
     }
-    return x;
+    return x_next;
 }
-void output(float n, float sqrroot) {
-    if (sqrroot != -1.0) {
-        printf("The square root of %.2f is approximately %.4f\n", n, sqrroot);
-    }
+void output(float n, float res){
+    printf("sqrt of %f is %f",n,res);
 }
-int main() {
-    float number, result;
-    number = input();
-    result = square_root(number);
-    output(number, result);
+int main(){
+    float n, epsilon, res;
+    n=input_n();
+    res=find_sqrt(n, epsilon);
+    output(n, res);
     return 0;
 }
