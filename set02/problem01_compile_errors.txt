@@ -2,3 +2,5 @@ c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.start
 collect2.exe: error: ld returned 1 exit status
 c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A\set02\problem01.exe: Permission denied
 collect2.exe: error: ld returned 1 exit status
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A\set02\problem01.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
