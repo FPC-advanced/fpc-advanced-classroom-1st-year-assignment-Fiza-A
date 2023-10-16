@@ -19,7 +19,7 @@ Complex input_complex() {
 }
 void input_n_complex(int n, Complex c[n]) {
     printf("Enter %d complex numbers:\n", n);
-    for (int i = 0; i < n; i++) {
+    for (int i=0; i<n; i++) {
         c[i] = input_complex();
     }
 }
@@ -30,7 +30,7 @@ Complex add(Complex a, Complex b) {
     return sum;
 }
 Complex add_n_complex(int n, Complex c[n]) {
-    Complex sum = {0, 0}; // Initialize the sum to 0
+    Complex sum={0, 0};
     for (int i = 0; i < n; i++) {
         sum = add(sum, c[i]);
     }

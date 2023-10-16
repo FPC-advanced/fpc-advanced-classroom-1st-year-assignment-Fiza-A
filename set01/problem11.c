@@ -1,9 +1,9 @@
 #include <stdio.h>
-struct _complex {
+struct complex {
     float real;
     float imaginary;
 };
-typedef struct _complex Complex;
+typedef struct complex Complex;
 Complex input_complex() {
     Complex c;
     printf("Enter the real part: ");
@@ -19,7 +19,7 @@ Complex add_complex(Complex a, Complex b) {
     return sum;
 }
 void output(Complex a, Complex b, Complex sum) {
-    printf("Sum of complex numbers: (%.2f + %.2fi) + (%.2f + %.2fi) = %.2f + %.2fi\n", a.real, a.imaginary, b.real, b.imaginary, sum.real, sum.imaginary);
+    printf("Sum of complex numbers is %.2f + %.2fi\n",sum.real, sum.imaginary);
 }
 int main() {
     Complex complex1, complex2, sum;
@@ -27,6 +27,5 @@ int main() {
     complex2 = input_complex();
     sum = add_complex(complex1, complex2);
     output(complex1, complex2, sum);
-
     return 0;
 }

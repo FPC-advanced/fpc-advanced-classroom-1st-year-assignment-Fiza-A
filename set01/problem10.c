@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <string.h>
-void input_two_strings(char *string1, char *string2) {
+void input_str(char *string1, char *string2) {
     printf("Enter the two strings: ");
     scanf("%s %s", string1, string2);
 }
-int stringcompare(char *string1, char *string2) {
+int strcmp(char *string1, char *string2) {
     int len1 = strlen(string1);
     int len2 = strlen(string2);
     int min_len = (len1 < len2) ? len1 : len2;
@@ -34,8 +34,8 @@ void output(char *string1, char *string2, int result) {
 int main() {
     char string1[100], string2[100];
     int result;
-    input_two_strings(string1, string2);
-    result = stringcompare(string1, string2);
+    input_str(string1, string2);
+    result = strcmp(string1, string2);
     output(string1, string2, result);
     return 0;
 }
