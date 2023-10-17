@@ -1,2 +1,7 @@
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A\set01\problem10.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
+c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1\set01\problem10.c:7:5: error: conflicting types for 'strcmp'
+ int strcmp(char *string1, char *string2) {
+     ^~~~~~
+In file included from c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1\set01\problem10.c:2:0:
+c:\mingw\include\string.h:77:38: note: previous declaration of 'strcmp' was here
+ _CRTIMP __cdecl __MINGW_NOTHROW  int strcmp (const char *, const char *) __MINGW_ATTRIB_PURE;
+                                      ^~~~~~
