@@ -7,7 +7,7 @@ float input_n(){
     return n;
 }
 float find_sqrt(float n, float epsilon){
-    float x = n;
+    float x=n;
     epsilon=0.0001;
     float x_next;
     while(1){
