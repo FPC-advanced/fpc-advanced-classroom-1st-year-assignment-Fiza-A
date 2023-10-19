@@ -17,3 +17,23 @@ PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1\set02\problem03_session.txt
+PS C:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1> Start-Transcript -Path "c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1\set01\problem03_session.txt"
+Transcript started, output file is c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1\set01\problem03_session.txt
+PS C:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1> gcc -g "c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1\set01\problem03.c" -o "c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1\set01\problem03.exe" 2>&1
+
+PS C:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1> c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1\set01\problem03.exe
+c:\Users\AMAN : The term 'c:\Users\AMAN' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-yea ...
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\AMAN:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+c:\Users\AMAN : The term 'c:\Users\AMAN' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-yea ...
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\AMAN:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
