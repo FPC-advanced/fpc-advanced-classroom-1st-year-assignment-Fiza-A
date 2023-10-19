@@ -21,3 +21,14 @@ PS C:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assign
 
 PS C:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1> "c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1\set01\problem01.exe"
 c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1\set01\problem01.exe
+PS C:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1> git add .
+
+PS C:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1> git commit -m "committed 10/19/2023, 4:11:40 PM"
+
+PS C:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1> git push
+
+PS C:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231019161205
+**********************
