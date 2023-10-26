@@ -16,3 +16,35 @@ WSManStackVersion: 3.0
 PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
+Transcript started, output file is c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1\set02\problem03_session.txt
+PS C:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1> gcc -g "c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1\set02\problem03.c" -o "c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1\set02\problem03.exe" 2>&1
+gcc : c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.tex
+t.startup+0xa0): undefined reference to `WinMain@16'
+At line:1 char:1
++ gcc -g "c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (c:/mingw/bin/.....to `WinMain@16'
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+collect2.exe: error: ld returned 1 exit status
+gcc : c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.tex
+t.startup+0xa0): undefined reference to `WinMain@16'
+At line:1 char:1
++ gcc -g "c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (c:/mingw/bin/.....to `WinMain@16'
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+collect2.exe: error: ld returned 1 exit status
+PS C:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1> gcc -g "c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1\set02\problem03.c" -o "c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1\set02\problem03.exe" 2>&1
+gcc : c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+At line:1 char:1
++ gcc -g "c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (c:/mingw/bin/.....to `WinMain@16':String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+collect2.exe: error: ld returned 1 exit status
+
