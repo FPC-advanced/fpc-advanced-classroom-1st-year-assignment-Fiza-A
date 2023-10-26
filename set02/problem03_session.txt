@@ -77,3 +77,5 @@ PS C:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assign
 The entered number is composite.
 PS C:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1\set02> gcc problem03.c
 
+PS C:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-1\set02> .\a.exe
+The entered number is composite.
