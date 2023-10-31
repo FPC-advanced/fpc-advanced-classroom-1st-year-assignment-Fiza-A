@@ -28,7 +28,7 @@ int is_prime(int n){
     return 1;
 }
 void output(int n ,int result){
-    if(result==-1){
+    if(result==1){
         printf("%d is a prime number\n",n);
     }
     if(result==0){
