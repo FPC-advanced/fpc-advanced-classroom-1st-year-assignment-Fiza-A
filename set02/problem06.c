@@ -7,6 +7,7 @@ void str_reverse(char *str, char *rev_str);
 void output(char *a, char *reverse_a);
 ```*/
 #include<stdio.h>
+#include<string.h>
 void input_string(char *a){
     printf("Enter a string:\n");
     scanf("%s", a);
