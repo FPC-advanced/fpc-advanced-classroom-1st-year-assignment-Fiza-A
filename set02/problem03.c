@@ -19,10 +19,10 @@ int is_composite(int n){
 }
 void output(int n, int result){
     if(result==1){
-        printf("The entered number is composite.");
+        printf("The entered number %d is composite.",n);
     }
-    else{
-        printf("The entered number is not composite.");
+    else if(result==0){
+        printf("The entered number %d is not composite.",n);
     }
 }
 int main(){
