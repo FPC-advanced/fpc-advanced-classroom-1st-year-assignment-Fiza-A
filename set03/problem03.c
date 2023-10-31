@@ -17,8 +17,8 @@ int input_number(){
 }
 int is_prime(int n){
     for(int i=2; i<=n/2; i++){
-        if(n%i==0){
-            return -1;
+        if(n%i!=0){
+            return 1;
         }
     }
         return 0;
@@ -26,8 +26,8 @@ int is_prime(int n){
     
 }
     void output(int n ,int result){
-        if(result==-1){
-            printf("%d is a composite number\n",n);
+        if(result>0){
+            printf("%d is a prime number\n",n);
         
         }
         if(result==0){
@@ -38,7 +38,7 @@ int is_prime(int n){
     
     int main(){
         int n, result;
-        input_number(n);
+        n=input_number();
          result=is_prime(n);
         output(n,result);
         return 0;
