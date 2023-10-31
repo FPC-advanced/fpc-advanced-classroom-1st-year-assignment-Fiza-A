@@ -20,7 +20,7 @@ void str_reverse(char *str, char *rev_str) {
     rev_str[length] = '\0';
 }
 void output(char *a, char *reverse_a) {
-    printf("\nReversed String: %s\n", reverse_a);
+    printf("Reversed String: %s\n", reverse_a);
 }
 int main() {
     char a[50], reverse_a[50];
