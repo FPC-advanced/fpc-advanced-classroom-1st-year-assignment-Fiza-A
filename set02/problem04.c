@@ -5,19 +5,27 @@ int input_array_size(){
     scanf("%d",&n);
     return n;
 }
-void input_array(int n, int a[n]){
+void input_array(int n, int a[]){
     printf("Enter number:\n");
     for(int i=0; i<n; i++){
         scanf("%d", &a[n]);
     }
 }
-int sum_composite_numbers(int n, int a[n]){
-    int sum=0;
-    for(int i=0; i<n; i++){
-        for(int j=2; j<= a[i]/2; j++){
-            if (a[i] % j == 0){
-                sum += a[i];
-            }
+int is_composite(int n, int a[]) {
+    if (a[n] <= 1){
+        return 0;
+    }  
+    for (int i = 2; i <= a[n]/ 2; i++) {
+        if (a[n]% i == 0) {
+            return 1; 
+        }
+    }
+    return 0;  
+}int sum_composite_numbers(int n, int a[]){
+    int sum = 0;
+    for (int i = 0; i < n; i++) {
+        if (is_composite(n, a[i])==1) {
+            sum += a[i];
         }
     }
     return sum;
