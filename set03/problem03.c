@@ -18,14 +18,14 @@ int input_number(){
 int is_prime(int n){
     if(n<=1){
         printf("Number should be greater than 1!");
-        return 0;
+        return 1;
     }
     for(int i=2; i<=n/2; i++){
         if(n%i==0){
-            return 1;
+            return 0;
         }
     }
-    return 0;
+    return 1;
 }
 void output(int n ,int result){
     if(result==-1){
