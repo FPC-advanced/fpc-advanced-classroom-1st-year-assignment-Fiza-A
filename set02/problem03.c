@@ -15,10 +15,10 @@ int is_composite(int n){
             return 1;
         }
     }
-    return -1;
+    return 0;
 }
 void output(int n, int result){
-    if(result){
+    if(result==1){
         printf("The entered number is composite.");
     }
     else{
