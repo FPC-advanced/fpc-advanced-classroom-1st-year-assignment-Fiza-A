@@ -19,15 +19,6 @@ void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den){
         *res_den = den1 * den2;
     }
 }
-int gcd(int res_num, int res_den){
-    if (res_num==0) return res_den;
-    return gcd(res_num, res_den%res_num);
-}
-void simpfract(int res_num, int res_den, int *numerator, int *denominator){
-    int cd= gcd(res_num, res_den%res_num);
-    *numerator =res_num / cd;
-    *denominator = res_den / cd;
-}
 void output(int num1, int den1, int num2, int den2, int res_num, int res_den){
     printf("Sum of the two fractions %d/%d and %d/%d is %d/%d",num1, den1,num2, den2, res_num, res_den);
 }
