@@ -21,11 +21,11 @@ int factorial() {
 }
 int nCr(int n, int r) {
     if (r < 0 || r > n) {
-        return 0; 
-    }
     int numerator = factorial(n);
     int denominator = factorial(r) * factorial(n - r);
     return numerator / denominator;
+    }
+    return 0;
 }
 void output(int n, int r, int result) {
     printf("%dC%d (combination of %d choose %d) is: %d\n", n, r, n, r, result);
