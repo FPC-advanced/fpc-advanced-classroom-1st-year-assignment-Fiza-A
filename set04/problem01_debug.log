@@ -1,0 +1,75 @@
++cd "c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set02"
+"c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set02": Invalid argument.
++gcc -g "c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set02\problem03.c" -o "c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set02\problem03.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set02\problem03.exe"
+Undefined command: "".  Try "help".
++cd "c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set02"
+"c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set02": Invalid argument.
++gdb ./problem03
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem03_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem01_debug.log.
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++set trace-commands on
++cd "c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set02"
+"c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set02": Invalid argument.
++gdb ./problem03
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem03_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem01_debug.log.
++set trace-commands on
++cd "c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set02"
+"c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set02": Invalid argument.
++gcc -g "c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set02\problem04.c" -o "c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set02\problem04.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set02\problem04.exe"
+Undefined command: "".  Try "help".
++cd "c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set02"
+"c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set02": Invalid argument.
++gdb ./problem04
+Undefined command: "gdb".  Try "help".
++c
+The program is not being run.
++set logging file problem04_debug.log
++set logging enabled on
+Undefined set logging command: "enabled on".  Try "help set logging".
++set logging on
+Already logging to problem01_debug.log.
++set trace-commands on
++q
