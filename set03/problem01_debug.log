@@ -1,0 +1,19 @@
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 11/20/2023, 10:13:02 AM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 11/20/2023, 10:13:07 AM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".
++cd "c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set01"
+"c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set01": Invalid argument.
++gcc -g "c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set01\problem01.c" -o "c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set01\problem01.exe" 2>&1
+Undefined command: "gcc".  Try "help".
++"c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set01\problem01.exe"
+Undefined command: "".  Try "help".
++q
