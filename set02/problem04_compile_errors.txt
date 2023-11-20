@@ -27,3 +27,12 @@ c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignmen
  int is_composite(int n, int a[]) {
      ^~~~~~~~~~~~
 Compilation finished at 11/20/2023, 10:05:44 AM
+Compilation started at 11/20/2023, 10:07:16 AM
+c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set02\problem04.c: In function 'sum_composite_numbers':
+c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set02\problem04.c:27:29: warning: passing argument 2 of 'is_composite' makes pointer from integer without a cast [-Wint-conversion]
+         if (is_composite(n, a[i])==1) {
+                             ^
+c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set02\problem04.c:14:5: note: expected 'int *' but argument is of type 'int'
+ int is_composite(int n, int a[]) {
+     ^~~~~~~~~~~~
+Compilation finished at 11/20/2023, 10:07:17 AM
