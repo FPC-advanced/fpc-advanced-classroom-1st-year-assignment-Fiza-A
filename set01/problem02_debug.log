@@ -1,0 +1,33 @@
++l
+1	//2. Write a C program to add two numbers.
+2	#include<stdio.h>
+3	int main(){
+4	
+5	    int a, b;
+6	
+7	    printf("Enter first number:");
+8	    scanf("%d",&a);
+9	    printf("Enter first number:");
+10	    scanf("%d",&b);
++l
+11	
+12	
+13	    int sum;
+14	    sum=a+b;
+15	
+16	    printf("sum of %d and %d is %d", a, b, sum);
+17	
+18	    return 0;
+19	}
++l
+Line number 20 out of range; c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set01\problem02.c has 19 lines.
++r
+Starting program: c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set01/./problem02.exe 
+[New Thread 32556.0x7398]
+[New Thread 32556.0x691c]
+[New Thread 32556.0x3210]
+[New Thread 32556.0x60dc]
+[Inferior 1 (process 32556) exited normally]
++print a
+No symbol "a" in current context.
++q
