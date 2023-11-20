@@ -6,3 +6,5 @@ Compilation started at 11/18/2023, 6:59:30 PM
 c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\AMAN ARIF\Desktop\FPC Advance\fpc-advanced-classroom-1st-year-assignment-Fiza-A-3\set04\problem01.exe: Permission denied
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 11/18/2023, 6:59:30 PM
+Compilation started at 11/20/2023, 10:03:50 AM
+Compilation finished at 11/20/2023, 10:03:50 AM
