@@ -10,3 +10,9 @@ Undefined command: "git".  Try "help".
 Undefined command: "git".  Try "help".
 +git push
 Undefined command: "git".  Try "help".
++git add .
+Undefined command: "git".  Try "help".
++git commit -m "committed 11/20/2023, 11:24:14 AM"
+Undefined command: "git".  Try "help".
++git push
+Undefined command: "git".  Try "help".

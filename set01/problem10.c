@@ -4,7 +4,11 @@ void input_str(char *string1, char *string2) {
     scanf("%s %s", string1, string2);
 }
 int strcmp(char *string1, char *string2) {
-    
+   int i=0;
+    for( i=0; str1[i]==str2[i]; i++);
+        str1!="!0"&&
+        str2!="!0";
+    if(str1[i]>str2[i]) 
 }
 void output(char *string1, char *string2, int result) {
     if (result < 0) {
